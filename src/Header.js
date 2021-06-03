@@ -1,12 +1,10 @@
-import React from "react";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
 
 function Header() {
     return (
         <div className="Header">
-            <a href=''>Main</a>
-            <a href="">Contact</a>
-            <a href="">About</a>
-            <a href="">Profile</a>
+            <img src="./../logo192.png" alt="logo" />
         </div>
     );
 }
