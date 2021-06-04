@@ -1,42 +1,10 @@
 .App {
   width: 900px;
-  height: 500px;
   margin: 20px auto;
   display: grid;
   grid-template-rows: 50px 1fr 50px;
-  grid-template-columns: 300px 600px;
+  grid-template-columns: 150px 600px;
 }
-.Header{
-  width: 100%;
-  height: 50px;
-  background-color: lightslategrey;
-  grid-row: 1 / 2;
-  grid-column: 1 / 3;
-}
-.Header img{
-  display: block;
-  width: 50px;
-  margin-left: 10px;
-}
-.Menu{
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
-  background-color: rgb(53, 122, 53);
-}
-.Menu a{
-  color: blue;
-  text-decoration: none;
-  font-size: 20px;
-}
-.Content{
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-}
-.Footer {
-  height: 50px;
-  background-color: cadetblue;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  grid-row: 3 / 4;
-  grid-column: 1 / 3;
-}
+
+
+

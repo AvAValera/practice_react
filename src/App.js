@@ -1,16 +1,13 @@
 import React from 'react';
-
 import './App.css';
-import Header from './Header';
-import Menu from './Menu';
-import Content from './modules/Content';
-import Footer from './Footer';
+import Header from './modules/Header/Header';
+import Content from './modules/Content/Content';
+import Footer from './modules/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Menu />
       <Content />
       <Footer />
     </div>
