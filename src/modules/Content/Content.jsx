@@ -1,11 +1,12 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './Content.css'
-import Contact from './Contact';
-import Main from './Main'
-import Menu from './Menu'
-import Messages from './Messages';
-function Content(){
+import Contact from './Contact/Contact';
+import Main from './Main/Main'
+import Menu from './Menu/Menu'
+import Messages from './Messages/Messages';
+import Portfolio from './Portfolio/Portfolio'
+function Content(props){
     return (
         <BrowserRouter>
             <Menu />
@@ -18,9 +19,10 @@ function Content(){
                             <img src="./../logo512.png" alt="logo-info" />
                         </div>
                         <div className="My-info">
-                            <Route path="/main" component={Main} />
-                            <Route path="/contact" component={Contact} />
-                            <Route path="/messages" component={Messages} />
+                            <Route path="/" render={() => <Main />} />
+                            <Route path="/contact" render={() => <Contact />} />
+                            <Route path="/messages" render={() => <Messages contactList={props.contactList} contactMessages={props.contactMessages} />} />
+                            <Route path="/portfolio" render={() => <Portfolio />} />
                         </div>
                     </div>
                 </div>

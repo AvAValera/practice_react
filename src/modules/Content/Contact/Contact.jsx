@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Main(){
+function Contact(){
     return(
-        <div className="Main">
+        <div className="Contact">
             <p>Name: Well</p>
             <p>Age: 35</p>
             <p>Language: Ukrainian, Russian, English</p>
             <p>Location: Ukraine</p>
         </div>
     )
-}
+};
 
-export default Main;
+export default Contact;

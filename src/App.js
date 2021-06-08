@@ -4,11 +4,11 @@ import Header from './modules/Header/Header';
 import Content from './modules/Content/Content';
 import Footer from './modules/Footer/Footer';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header />
-      <Content />
+      <Content contactList={props.contactList} contactMessages={props.contactMessages} />
       <Footer />
     </div>
   );
