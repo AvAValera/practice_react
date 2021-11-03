@@ -1,18 +1,10 @@
-import React from 'react';
-import './App.css';
-import Header from './modules/Header/Header';
-import Content from './modules/Content/Content';
-import Footer from './modules/Footer/Footer';
+import React from "react";
+import "./App.css";
 
 function App(props) {
-  return (
-    <div className="App">
-      <Header />
-      <Content contactList={props.contactList} contactMessages={props.contactMessages} />
-      <Footer />
-    </div>
-  );
+    return <div className="App">
+        
+    </div>;
 }
-
 
 export default App;
