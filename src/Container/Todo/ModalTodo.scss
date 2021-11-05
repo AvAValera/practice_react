@@ -1,0 +1,22 @@
+.modal-todo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.541);
+    &-text{
+        color: white;
+        text-align: center;
+        padding: 10px;
+
+    }
+    button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10%;
+        padding: 10px;
+    }
+}

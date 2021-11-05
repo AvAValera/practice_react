@@ -6,9 +6,8 @@
     margin: 30px auto;
 }
 .todo-item{
-
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 5px;
     border: 1px solid black;
@@ -16,6 +15,12 @@
     transition: 1s linear;
     .numb{
         font-weight: bold;
+        margin: 0 10px;
     }
-    
+    .message{
+        margin: 0 10px;
+    }
+    .message-done{
+        text-decoration: line-through;
+    }
 }
